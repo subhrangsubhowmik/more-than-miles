@@ -26,6 +26,9 @@ export default function TourCard({ tour, compact = false }) {
       <div className="tour-body">
         <h3>{tour.title}</h3>
         <p>{compact ? truncate(tour.description, 140) : tour.description}</p>
+        <div className="tour-footer">
+          <span className="calendar-icon" aria-hidden="true">📅</span>
+        </div>
       </div>
     </article>
   );

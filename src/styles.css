@@ -104,6 +104,8 @@ img { display: block; max-width: 100%; }
 .tour-body { padding: 1.5rem 1.75rem; }
 .tour-body h3 { margin: 0 0 0.5rem; font-size: 1.4rem; }
 .tour-body p { margin: 0; white-space: pre-line; color: #44504a; }
+.tour-footer { margin-top: 1rem; display: flex; align-items: center; }
+.calendar-icon { font-size: 1.25rem; color: #2f6f5e; line-height: 1; }
 
 @media (max-width: 720px) {
   .tour-card { grid-template-columns: 1fr; }
