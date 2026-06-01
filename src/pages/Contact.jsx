@@ -15,7 +15,7 @@ export default function Contact() {
             <span className="contact-icon">✉</span>
             <div>
               <div className="contact-label">Email</div>
-              <a href="mailto:hello@morethanmiles.in">hello@morethanmiles.in</a>
+              <a href="mailto:morethanmiles.tours@gmail.com">morethanmiles.tours@gmail.com</a>
             </div>
           </li>
           <li>
