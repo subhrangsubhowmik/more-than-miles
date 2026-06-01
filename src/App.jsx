@@ -1,0 +1,41 @@
+import { Routes, Route, Link, NavLink } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import Tours from "./pages/Tours.jsx";
+import Contact from "./pages/Contact.jsx";
+
+export default function App() {
+  return (
+    <div className="app">
+      <header className="site-header">
+        <div className="container nav">
+          <Link to="/" className="brand">
+            <span className="brand-mark">◇</span> More Than Miles
+          </Link>
+          <nav className="menu">
+            <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "")}>
+              Explore Tours
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+              Contact Us
+            </NavLink>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/tours" element={<Tours />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </main>
+
+      <footer className="site-footer">
+        <div className="container">
+          <p>© {new Date().getFullYear()} More Than Miles. Crafted for travellers of Bengal.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
