@@ -1,0 +1,32 @@
+# More Than Miles - Tours data
+# Admin: edit this file to add/update tours.
+# Format:
+#   === Tour Title ===
+#   images: file1.jpg, file2.jpg   (place files in /public/images/)
+#   <blank line>
+#   Description paragraph(s) until the next "=== ..." block.
+
+=== Digha ===
+images: digha-1.jpg, digha-2.jpg
+
+Digha is one of Bengal's most-loved seaside getaways, just a short drive from Kolkata. Soft sands, gentle surf and rows of casuarina trees make it a perfect weekend escape. Our package includes beachfront stays, sunrise walks at New Digha and a side trip to the quiet shores of Mandarmani.
+
+=== Sundarban ===
+images: sundarban-1.jpg, sundarban-2.jpg, sundarban-3.jpg
+
+Cruise through the world's largest mangrove forest in search of the elusive Royal Bengal Tiger. Our Sundarban expedition includes licensed launches, watchtower visits at Sajnekhali and Dobanki, village folk performances and freshly cooked Bengali meals on board.
+
+=== Kolkata ===
+images: kolkata-1.jpg, kolkata-2.jpg
+
+The City of Joy comes alive on our two-day heritage walk: Howrah Bridge at dawn, the colonial corridors of BBD Bagh, Kumartuli's clay artisans, College Street's book bazaar and an evening of Rabindra Sangeet on the Hooghly. Street food trails included.
+
+=== Murshidabad ===
+images: murshidabad-1.jpg
+
+Step into the lost capital of Bengal's nawabs. Wander Hazarduari Palace, the Katra Mosque and Nizamat Imambara, and sail down the Bhagirathi at sunset. A slow, quiet trip rich in history and silk-weaving traditions.
+
+=== Darjeeling ===
+images: darjeeling-1.jpg, darjeeling-2.jpg, darjeeling-3.jpg
+
+Watch the first light hit Kanchenjunga from Tiger Hill, ride the heritage Toy Train to Ghoom, sip first-flush tea at a working estate and lose yourself in the prayer-flagged calm of Peace Pagoda. Our Darjeeling tour blends iconic sights with offbeat hamlets like Lamahatta and Tinchuley.
