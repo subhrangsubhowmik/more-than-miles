@@ -2,6 +2,7 @@ import { Routes, Route, Link, NavLink } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Tours from "./pages/Tours.jsx";
 import Contact from "./pages/Contact.jsx";
+import TourDetail from "./pages/TourDetail.jsx";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tours" element={<Tours />} />
+          <Route path="/tours/:id" element={<TourDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>
