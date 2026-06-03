@@ -64,3 +64,14 @@ description:
 Watch the first light hit Kanchenjunga from Tiger Hill, ride the heritage Toy Train to Ghoom, sip first-flush tea at a working estate and lose yourself in the prayer-flagged calm of Peace Pagoda.
 
 Our Darjeeling tour blends iconic sights with offbeat hamlets like Lamahatta and Tinchuley.
+
+=== Purulia ===
+subheading: Pradise for Ameture trekkers/hikers
+images: purulia-1.jpg, purulia-2.jpg, purulia-3.jpg
+duration: 3 days
+booking: Hotel & transport support included
+
+description:
+Conquer rugged rock-climbing trails on the slopes of Joychandi Pahar and the mysterious Pakhi Pahar.
+
+Stroll through tranquil, blooming Palash forests that paint the earth in brilliant reds during the spring. Spend quiet, cozy evenings by the shimmering banks of Baranti Lake.
