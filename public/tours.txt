@@ -1,32 +1,66 @@
 # More Than Miles - Tours data
 # Admin: edit this file to add/update tours.
 # Format:
-#   === Tour Title ===
-#   images: file1.jpg, file2.jpg   (place files in /public/images/)
-#   <blank line>
-#   Description paragraph(s) until the next "=== ..." block.
+#   === Place Name ===
+#   subheading: Catchy tour summary
+#   images: file1.jpg, file2.jpg, file3.jpg  (place files in /public/images/)
+#   duration: 2 days
+#   booking: Hotel + transport assistance
+#   description:
+#   First description paragraph.
+#   Second paragraph if needed.
+#
+# Each tour block must start with === and the title. Use a blank line after the description block.
 
 === Digha ===
-images: digha-1.jpg, digha-2.jpg
+subheading: Beachfront mornings and easy coastal escapes
+images: digha-1.jpg, digha-2.jpg, digha-3.jpg
+duration: 2 days
+booking: Hotel & transport support included
 
-Digha is one of Bengal's most-loved sea-side getaways, just a short drive from Kolkata. Soft sands, gentle surf and rows of casuarina trees make it a perfect weekend escape. Our package includes beachfront stays, sunrise walks at New Digha and a side trip to the quiet shores of Mandarmani.
+description:
+Digha is one of Bengal's most-loved seaside getaways, just a short drive from Kolkata. Soft sands, gentle surf and rows of casuarina trees make it a perfect weekend escape.
+
+Our package includes beachfront stays, sunrise walks at New Digha and a side trip to the quiet shores of Mandarmani.
 
 === Sundarban ===
+subheading: Jungle cruises, watchtowers and tiger tales
 images: sundarban-1.jpg, sundarban-2.jpg, sundarban-3.jpg
+duration: 3 days
+booking: Hotel & transport support included
 
+description:
 Cruise through the world's largest mangrove forest in search of the elusive Royal Bengal Tiger. Our Sundarban expedition includes licensed launches, watchtower visits at Sajnekhali and Dobanki, village folk performances and freshly cooked Bengali meals on board.
 
 === Kolkata ===
-images: kolkata-1.jpg, kolkata-2.jpg
+subheading: Heritage streets, riverside evenings and hidden food trails
+images: kolkata-1.jpg, kolkata-2.jpg, kolkata-3.svg
+duration: 2 days
+booking: Hotel & transport support included
 
-The City of Joy comes alive on our two-day heritage walk: Howrah Bridge at dawn, the colonial corridors of BBD Bagh, Kumartuli's clay artisans, College Street's book bazaar and an evening of Rabindra Sangeet on the Hooghly. Street food trails included.
+description:
+The City of Joy comes alive on our two-day heritage walk: Howrah Bridge at dawn, the colonial corridors of BBD Bagh, Kumartuli's clay artisans, College Street's book bazaar and an evening of Rabindra Sangeet on the Hooghly.
+
+Street food trails are included for an authentic Kolkata experience.
 
 === Murshidabad ===
-images: murshidabad-1.jpg
+subheading: Nawabi palaces, river cruises and silk traditions
+images: murshidabad-1.jpg, murshidabad-2.svg, murshidabad-3.svg
+duration: 3 days
+booking: Hotel & transport support included
 
-Step into the lost capital of Bengal's Nawabs. Wander Hazarduari Palace, the Katra Mosque and Nizamat Imambara, and sail down the Bhagirathi at sunset. A slow, quiet trip rich in history and silk-weaving traditions.
+description:
+Step into the lost capital of Bengal's Nawabs. Wander Hazarduari Palace, the Katra Mosque and Nizamat Imambara, and sail down the Bhagirathi at sunset.
+
+This is a slow, quiet trip rich in history, craft and royal architecture.
 
 === Darjeeling ===
+subheading: Mountain teas, heritage train rides and misty vistas
 images: darjeeling-1.jpg, darjeeling-2.jpg, darjeeling-3.jpg
+duration: 4 days
+booking: Hotel & transport support included
 
-Watch the first light hit Kanchenjunga from Tiger Hill, ride the heritage Toy Train to Ghoom, sip first-flush tea at a working estate and lose yourself in the prayer-flagged calm of Peace Pagoda. Our Darjeeling tour blends iconic sights with offbeat hamlets like Lamahatta and Tinchuley.
+description:
+Watch the first light hit Kanchenjunga from Tiger Hill, ride the heritage Toy Train to Ghoom, sip first-flush tea at a working estate and lose yourself in the prayer-flagged calm of Peace Pagoda.
+
+Our Darjeeling tour blends iconic sights with offbeat hamlets like Lamahatta and Tinchuley.

@@ -35,7 +35,7 @@ export default function TourCard({ tour, compact = false }) {
               <line x1="8" y1="2" x2="8" y2="6"></line>
               <line x1="3" y1="10" x2="21" y2="10"></line>
             </svg>
-            Throughout the year
+            {tour.duration || "Flexible duration"}
           </span>
           <Link to={`/tours/${tour.id}`} className="btn btn-primary view-more-btn">
             View More →
