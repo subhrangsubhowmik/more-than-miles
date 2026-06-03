@@ -45,7 +45,7 @@ Street food trails are included for an authentic Kolkata experience.
 
 === Murshidabad ===
 subheading: Nawabi palaces, river cruises and silk traditions
-images: murshidabad-1.jpg, murshidabad-2.svg, murshidabad-3.svg
+images: murshidabad-1.jpg, murshidabad-2.svg, murshidabad-3.svg,murshidabad-4.jpg
 duration: 3 days
 booking: Hotel & transport support included
 
