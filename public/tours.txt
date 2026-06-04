@@ -69,7 +69,7 @@ Our Darjeeling tour blends iconic sights with offbeat hamlets like Lamahatta and
 subheading: Pradise for Ameture trekkers/hikers
 images: purulia-1.jpg, purulia-2.jpg, purulia-3.jpg
 duration: 3 days
-booking: Hotel & transport support included
+booking: Hotel & transport support included with campfire option
 
 description:
 Conquer rugged rock-climbing trails on the slopes of Joychandi Pahar and the mysterious Pakhi Pahar.
