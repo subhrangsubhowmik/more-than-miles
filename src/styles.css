@@ -175,6 +175,68 @@ img { display: block; max-width: 100%; }
 .contact-list a { color: #1f2a24; font-weight: 600; }
 .contact-list a:hover { color: #2f6f5e; }
 
+.about-hero {
+  background:
+    linear-gradient(180deg, rgba(20,30,25,0.74), rgba(20,30,25,0.64)),
+    url("/images/MTMLogo.jpeg") center/cover no-repeat;
+  color: #fff;
+  padding: 6rem 0 5rem;
+}
+.about-hero h1 {
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  margin: 0 0 0.75rem;
+  line-height: 1.05;
+}
+.about-content { padding-top: 3rem; }
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.85fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+.about-grid p {
+  margin: 0 0 1.5rem;
+  color: #2d392f;
+}
+.about-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 2rem;
+  box-shadow: 0 18px 50px rgba(20, 30, 25, 0.08);
+  border: 1px solid #ece7dd;
+}
+.about-card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+.about-card ul {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
+  color: #415041;
+}
+.about-card ul li {
+  margin: 0.85rem 0;
+}
+.about-tagline {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #1f2a24;
+}
+.about-tagline-secondary {
+  margin-top: 0.75rem;
+  color: #5b655d;
+  font-style: italic;
+}
+
+@media (max-width: 820px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
+
+.about-hero {
+  background-position: center 55%;
+}
+
 /* ---------- Footer ---------- */
 .site-footer { padding: 2rem 0; border-top: 1px solid #e8e1d2; color: #6a7470; font-size: 0.9rem; }
 

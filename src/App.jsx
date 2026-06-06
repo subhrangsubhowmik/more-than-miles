@@ -1,6 +1,7 @@
 import { Routes, Route, Link, NavLink } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Tours from "./pages/Tours.jsx";
+import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import TourDetail from "./pages/TourDetail.jsx";
 
@@ -15,8 +16,9 @@ export default function App() {
           <nav className="menu">
             <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "")}>
               Explore Tours
-            </NavLink>
-            <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+            </NavLink>            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "") }>
+              About Us
+            </NavLink>            <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
               Contact Us
             </NavLink>
           </nav>
@@ -28,6 +30,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/tours/:id" element={<TourDetail />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Routes>
