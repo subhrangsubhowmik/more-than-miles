@@ -1,5 +1,15 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html"
-  }
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://www.morethanmiles.co.in/:splat",
+      "statusCode": 301,
+      "conditions": {
+        "host": ["morethanmiles.co.in"]
+      }
+    }
+  ]
 }
