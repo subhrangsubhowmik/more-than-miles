@@ -6,7 +6,7 @@
 "routes": [
     {
       "route": "/*",
-      "redirect": "https://salmon-cliff-0a97ed003.7.azurestaticapps.net",
+      "redirect": "https://www.morethanmiles.co.in",
       "statusCode": 301,
       "conditions": {
         "host": ["morethanmiles.co.in"],
