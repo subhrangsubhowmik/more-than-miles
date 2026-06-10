@@ -21,10 +21,16 @@ booking: Fooding & transport support included
 description:
 Discover the cultural capital of India through a fascinating journey across Kolkata's iconic landmarks, heritage buildings, vibrant markets and culinary treasures. Explore the city's colonial past, artistic heritage and modern charm while experiencing the warmth and spirit that make Kolkata truly unique..
 
-Highlights: 
+<strong>Highlights</strong>: 
 • Victoria Memorial 
 • St. Paul's Cathedral 
-• Indian Museum • Howrah Bridge • Flower Market • Kumartuli • College Street • Local food experiences • Hooghly River cruise (optional)
+• Indian Museum 
+• Howrah Bridge 
+• Flower Market 
+• Kumartuli 
+• College Street 
+• Local food experiences 
+• Hooghly River cruise (optional)
 
 === Durga Puja Experience ===
 subheading: Experience Bengal's Grandest Celebration
@@ -35,7 +41,13 @@ booking: Fodding & transport support included
 description:
 Experience the world's largest public celebration of art, culture and devotion. Witness spectacular themed pandals, dazzling light installations, traditional rituals, cultural performances and authentic Bengali festivities. Our curated Durga Puja tours offer an immersive experience into Bengal's most celebrated festival.
 
-Highlights: • Iconic and award-winning pandals • Traditional Bonedi Bari Puja visits • Cultural performances • Local festive cuisine • Guided festival tours • Immersion ceremony experiences (subject to schedule)
+<strong>Highlights</strong>: 
+• Iconic and award-winning pandals 
+• Traditional Bonedi Bari Puja visits 
+• Cultural performances 
+• Local festive cuisine 
+• Guided festival tours
+• Immersion ceremony experiences (subject to schedule)
 
 
 === Santiniketan Cultural Retreat ===
@@ -47,7 +59,13 @@ booking: Hotel & transport support included
 description:
 Step into the world of Rabindranath Tagore at Santiniketan, a unique cultural destination known for its artistic heritage, rural charm and creative spirit. Explore historic landmarks, local crafts, Baul traditions and the tranquil surroundings that inspired generations of artists and thinkers.
 
-Highlights: • Visva-Bharati campus • Rabindra Bhavan • Kala Bhavan • Sonajhuri Haat • Baul music experiences • Local art and handicrafts
+<strong>Highlights</strong>: c
+• Visva-Bharati campus 
+• Rabindra Bhavan 
+• Kala Bhavan 
+• Sonajhuri Haat 
+• Baul music experiences 
+• Local art and handicrafts
 
 === Sundarbans Wilderness Expedition ===
 subheading: Into the Heart of the Mangroves
@@ -58,7 +76,13 @@ booking: Hotel/HouseBoat & transport support included
 description:
 Embark on an unforgettable journey into the world's largest mangrove forest and a UNESCO World Heritage Site. Cruise through winding waterways, discover unique wildlife, visit local villages and experience the natural beauty of the Sundarbans ecosystem.
 
-Highlights: • Scenic boat safaris • Mangrove forest exploration • Watchtowers and wildlife spotting • Village experiences • Birdwatching opportunities • Local cuisine and cultural interactions
+<strong>Highlights</strong>: 
+• Scenic boat safaris 
+• Mangrove forest exploration 
+• Watchtowers and wildlife spotting 
+• Village experiences 
+• Birdwatching opportunities
+• Local cuisine and cultural interactions
 
 === Darjeeling & Kalimpong Himalayan Escape ===
 subheading: Where the Himalayas Touch the Sky
@@ -69,7 +93,14 @@ booking: Hotel & transport support included
 description:
 Experience the beauty of the Eastern Himalayas through the charming hill stations of Darjeeling and Kalimpong. Enjoy breathtaking mountain views, monasteries, colonial heritage, vibrant local culture and serene landscapes that create the perfect mountain getaway.
 
-Highlights: • Tiger Hill sunrise • Darjeeling Himalayan Railway • Ghoom Monastery • Himalayan Mountaineering Institute • Peace Pagoda • Kalimpong monasteries • Scenic viewpoints and local markets
+<strong>Highlights</strong>: 
+• Tiger Hill sunrise 
+• Darjeeling Himalayan Railway 
+• Ghoom Monastery 
+• Himalayan Mountaineering Institute 
+• Peace Pagoda 
+• Kalimpong monasteries 
+• Scenic viewpoints and local markets
 
 === Murshidabad Heritage Trail ===
 subheading: A Journey Through Bengal's Royal Past
@@ -80,7 +111,14 @@ booking: Hotel & transport support included with campfire option
 description:
 Travel back in time to the former capital of Bengal and uncover a rich legacy of nawabs, palaces, mosques and historic monuments. Murshidabad offers a fascinating glimpse into Bengal's royal past and architectural grandeur.
 
-Highlights: • Hazarduari Palace • Katra Mosque • Nizamat Imambara • Kathgola Palace • Motijheel • Historic cemeteries and heritage sites • Silk and handicraft experiences.
+<strong>Highlights</strong>:
+• Hazarduari Palace 
+• Katra Mosque 
+• Nizamat Imambara 
+• Kathgola Palace 
+• Motijheel 
+• Historic cemeteries and heritage sites 
+• Silk and handicraft experiences.
 
 === Bishnupur Heritage Journey ===
 subheading: Where Terracotta Art Tells Stories of a Glorious Past
@@ -91,7 +129,14 @@ booking: Hotel & transport support included with campfire option
 description:
 Discover the timeless charm of Bishnupur, renowned for its magnificent terracotta temples, rich artistic heritage and centuries-old craftsmanship. Once the capital of the Malla kings, Bishnupur offers a fascinating blend of history, architecture, music and traditional culture.
 
-Highlights: • UNESCO Tentative List Terracotta Temples • Rasmancha • Jor Bangla Temple • Shyam Rai Temple • Baluchari Saree weaving centres • Traditional handicrafts • Classical Bishnupur Gharana heritage
+<strong>Highlights</strong>: 
+• UNESCO Tentative List Terracotta Temples 
+• Rasmancha 
+• Jor Bangla Temple 
+• Shyam Rai Temple 
+• Baluchari Saree weaving centres
+• Traditional handicrafts
+• Classical Bishnupur Gharana heritage
 
 === Purulia Nature & Culture Escape ===
 subheading: Hills, Waterfalls and the Rhythm of Chhau
@@ -102,7 +147,14 @@ booking: Hotel & transport support included with campfire option
 description:
 Experience the rugged beauty of Purulia, a land of rolling hills, forests, waterfalls and vibrant tribal culture. Known for its breathtaking landscapes and the world-famous Chhau dance tradition, Purulia offers an offbeat and immersive travel experience.
 
-Highlights: • Ayodhya Hills • Bamni Falls • Muruguma Lake • Upper Dam & Lower Dam • Tribal villages • Chhau dance performances • Scenic nature trails and viewpoints
+<strong>Highlights</strong>: 
+• Ayodhya Hills 
+• Bamni Falls 
+• Muruguma Lake 
+• Upper Dam & Lower Dam 
+• Tribal villages 
+• Chhau dance performances
+• Scenic nature trails and viewpoints
 
 === Dooars Wildlife & Nature Retreat ===
 subheading: Gateway to the Wild Heart of Eastern
@@ -113,4 +165,12 @@ booking: Hotel & transport support included with campfire option
 description:
 Nestled at the foothills of the Eastern Himalayas, Dooars is a paradise for nature lovers and wildlife enthusiasts. Blessed with lush forests, rivers, national parks and abundant wildlife, Dooars offers a refreshing escape into the wilderness.
 
-Highlights: • Gorumara National Park • Jaldapara National Park • Wildlife jeep safaris • Elephant sightings • Scenic rivers and forests • Nature walks • Birdwatching opportunities • Local culture and village experiences
+<strong>Highlights</strong>: 
+• Gorumara National Park 
+• Jaldapara National Park 
+• Wildlife jeep safaris 
+• Elephant sightings 
+• Scenic rivers and forests 
+• Nature walks 
+• Birdwatching opportunities 
+• Local culture and village experiences
