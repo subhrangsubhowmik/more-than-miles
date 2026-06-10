@@ -68,7 +68,7 @@ export default function TourDetail() {
                 </span>
                 <div>
                   <strong>{tour.duration || "Flexible duration"}</strong>
-                  <span>Recommended package length</span>
+                  <span>(Recommended package length)</span>
                 </div>
               </div>
 
@@ -84,7 +84,7 @@ export default function TourDetail() {
                 </span>
                 <div>
                   <strong>{tour.booking || "Hotel + transport help available"}</strong>
-                  <span>Booking support</span>
+                  <span>(Any Booking support arranged)</span>
                 </div>
               </div>
             </div>
