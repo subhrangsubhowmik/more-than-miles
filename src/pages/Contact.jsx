@@ -22,22 +22,22 @@ export default function Contact() {
             <span className="contact-icon">⌬</span>
             <div>
               <div className="contact-label">WhatsApp</div>
-              <a href="https://wa.me/919830000000">+91 98300 00000</a>
+              <a href="https://wa.me/919830000000">+91 98740 14433</a>
             </div>
           </li>
           <li>
             <span className="contact-icon">☎</span>
             <div>
               <div className="contact-label">Phone</div>
-              <a href="tel:+919830000000">+91 98300 00000</a>
+              <a href="tel:+919830000000">+91 98305 65635</a>
             </div>
           </li>
           <li>
             <span className="contact-icon">f</span>
             <div>
               <div className="contact-label">Facebook</div>
-              <a href="https://facebook.com/morethanmiles" target="_blank" rel="noreferrer">
-                facebook.com/morethanmiles
+              <a href="https://www.facebook.com/share/1E9Mnq58CC/" target="_blank" rel="noreferrer">
+                fb/morethanmiles
               </a>
             </div>
           </li>
