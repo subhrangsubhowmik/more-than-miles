@@ -11,7 +11,7 @@ export default function App() {
       <header className="site-header">
         <div className="container nav">
           <Link to="/" className="brand">
-            <span className="brand-mark">◇</span> More Than Miles
+            <img src="/images/logo.jpeg" alt="More Than Miles" className="brand-mark" /> More Than Miles
           </Link>
           <nav className="menu">
             <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "")}>

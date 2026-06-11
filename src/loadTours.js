@@ -14,6 +14,7 @@ export function parseTours(text) {
 
   for (const raw of lines) {
     const line = raw.replace(/\s+$/, "");
+    const trimmed = line.trim();
     if (/^\s*#/.test(line)) continue; // comment
 
     const header = line.match(/^===\s*(.+?)\s*===\s*$/);
@@ -26,6 +27,7 @@ export function parseTours(text) {
         duration: "",
         booking: "",
         descLines: [],
+        highlights: [],
       };
       continue;
     }
@@ -61,10 +63,28 @@ export function parseTours(text) {
         continue;
       }
 
+      if (key === "highlights") {
+        if (value) {
+          const parts = value
+            .split(/[\u2022,\-\*]/)
+            .map((s) => s.trim())
+            .filter(Boolean);
+          current.highlights.push(...parts);
+        }
+        continue;
+      }
+
       if (key === "description") {
         if (value) current.descLines.push(value);
         continue;
       }
+    }
+
+    // bullet lines (•, -, *) are treated as highlights when present
+    const bulletMatch = trimmed.match(/^[\u2022\-\*\u2023]\s*(.+)$/);
+    if (bulletMatch) {
+      current.highlights.push(bulletMatch[1].trim());
+      continue;
     }
 
     current.descLines.push(line);
@@ -83,6 +103,7 @@ function finalize(t) {
     subtitle: t.subtitle,
     images: t.images,
     description,
+    highlights: t.highlights || [],
     duration: t.duration,
     booking: t.booking,
   };

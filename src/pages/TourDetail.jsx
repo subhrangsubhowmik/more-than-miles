@@ -93,6 +93,17 @@ export default function TourDetail() {
               <p key={index}>{paragraph}</p>
             ))}
 
+            {tour.highlights && tour.highlights.length > 0 && (
+              <div className="tour-highlights">
+                <strong>Highlights:</strong>
+                <ul>
+                  {tour.highlights.map((h, i) => (
+                    <li key={i}>{h}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             <div className="back-row">
               <Link to="/tours" className="btn btn-primary">
                 Back to tours
