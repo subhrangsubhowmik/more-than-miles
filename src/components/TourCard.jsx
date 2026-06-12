@@ -26,7 +26,7 @@ export default function TourCard({ tour, compact = false }) {
       </div>
       <div className="tour-body">
         <h3>{tour.title}</h3>
-        {tour.subtitle && <p className="tour-subtitle">{tour.subtitle}</p>}
+        {tour.subtitle && !compact && <p className="tour-subtitle">{tour.subtitle}</p>}
         <p>{compact ? truncate(tour.description, 140) : tour.description}</p>
         <div className="tour-footer">
           <span className="tour-availability">

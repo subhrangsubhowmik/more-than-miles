@@ -33,7 +33,7 @@ export function parseExperiences(text) {
           .split(',')
           .map((s) => s.trim())
           .filter(Boolean)
-          .slice(0, 2)
+          .slice(0, 3)
           .map((f) => (f.startsWith('/') || f.startsWith('http') ? f : `/images/exp/${f}`));
         continue;
       }

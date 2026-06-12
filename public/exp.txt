@@ -1,6 +1,14 @@
 # Experiences data - similar format to tours.txt
 # Blocks start with === Title ===
-# Keys: subheading, images, include, description
+# Keys: subheading, images (min 1, max 3), include, description
+
+=== Durga Puja Experience ===
+subheading: Experience Bengal's Grandest Celebration
+images: durgaPuja-1.jpg,durgaPuja-2.jpg,durgaPuja-3.jpg
+include: Iconic and award-winning pandals;Traditional Bonedi Bari Puja visits;Cultural performances;Local festive cuisine;Guided festival tours;Immersion ceremony experiences (subject to schedule)
+
+description:
+Experience the world's largest public celebration of art, culture and devotion. Witness spectacular themed pandals, dazzling light installations, traditional rituals, cultural performances and authentic Bengali festivities. Our curated Durga Puja tours offer an immersive experience into Bengal's most celebrated festival.
 
 === Bengali Culinary Experiences ===
 subheading: Traditional & home-style Bengali food
@@ -10,10 +18,44 @@ include: Traditional Bengali lunch/dinner experiences; Street food walks; Sweet 
 description:
 A curated set of culinary experiences focused on authentic Bengali flavours, hands-on meals and guided market tours.
 
-=== Handloom & Craft Workshops ===
-subheading: Local weaving and craft demonstrations
-images: handloom-1.svg
-include: Weaving demos; Handloom studio visits; Local craft markets; Short workshops
+=== Heritage Walks & Storytelling ===
+subheading: 
+images: heritageWalk-1.jpg
+include: Colonial Kolkata; Dalhousie Square/BBD Bagh; Chinatown; Kumartuli;College Street;North Kolkata heritage mansions;Riverfront heritage
 
 description:
-Meet artisans and learn traditional weaving techniques with short hands-on workshops.
+
+=== Baul Music & Rural Bengal ===
+subheading: 
+images: baul-1.jpg
+include: Baul performances;Santiniketan excursions;Sonajhuri Haat;Village interactions;Rural Bengal culture;Folk traditions
+
+description:
+
+=== Tribal Culture & Chhau Experience ===
+subheading: 
+images: chhou-1.jpg
+include: Purulia tribal villages;Chhau dance performances;Local crafts;Traditional lifestyle;Local cuisine;Seasonal festivals
+
+description:
+
+=== Handicrafts & Artisan Trails ===
+subheading: 
+images: artWork-1.jpg
+include: Bishnupur terracotta artisans;Baluchari saree weaving;Dokra craft villages;Pottery and local handicrafts;Artisan interactions;Shopping opportunities
+
+description:
+
+=== River & Village Experiences ===
+subheading: 
+images: river-1.jpg
+include: Hooghly river cruises;Riverside heritage towns;Sundarbans villages;Fishing communities;Rural life experiences
+
+description:
+
+=== Photography & Cultural Tours ===
+subheading: 
+images: culture-1.jpg
+include: Durga Puja photography;Kolkata street photography;Flower Market sunrise tours;Kumartuli artisan workshops;Darjeeling landscapes;Rural Bengal photography
+
+description:

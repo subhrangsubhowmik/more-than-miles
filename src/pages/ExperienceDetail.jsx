@@ -43,7 +43,7 @@ export default function ExperienceDetail() {
 
         <div className="tour-detail">
           <div className="tour-detail-gallery">
-            {item.images.slice(0, 2).map((src) => (
+            {item.images.slice(0, 3).map((src) => (
               <img key={src} src={src} alt={item.title} />
             ))}
           </div>
@@ -53,7 +53,7 @@ export default function ExperienceDetail() {
 
             {item.include && item.include.length > 0 && (
               <div className="tour-highlights">
-                <strong>Include:</strong>
+                <strong>Includes:</strong>
                 <ul>
                   {item.include.map((inc, i) => (
                     <li key={i}>{inc}</li>

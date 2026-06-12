@@ -16,11 +16,10 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container hero-inner">
-          <p className="eyebrow">West Bengal · Curated Journeys</p>
+          <p className="eyebrow">Beyond Destinations. Into Experiences.</p>
           <h1>More Than Miles</h1>
           <p className="lede">
-            Slow, soulful travel across Bengal — from the surf at Digha to the
-            first light on Kanchenjunga.
+            Experience the soul of Bengal through culture, cuisine, festivals, heritage and nature.
           </p>
           <div className="hero-cta">
             <Link to="/tours" className="btn btn-primary">Destinations</Link>
