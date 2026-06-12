@@ -15,7 +15,7 @@ export default function Tours() {
       <div className="container">
         <header className="page-head">
           <p className="eyebrow">Explore</p>
-          <h1>Our Tours</h1>
+          <h1>Destinations</h1>
           <p className="lede">Handpicked journeys across West Bengal.</p>
         </header>
 

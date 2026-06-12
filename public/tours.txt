@@ -52,7 +52,7 @@ Highlights:
 
 === Santiniketan Cultural Retreat ===
 subheading: The Land of Tagore and Timeless Culture
-images: santiniketan-1.jpg, santiniketan-2.jpg, santiniketan-3.svg
+images: santiniketan-1.jpg, santiniketan-2.jpg, santiniketan-3.jpg
 duration: 2/3 days
 booking: Hotel & transport support included
 

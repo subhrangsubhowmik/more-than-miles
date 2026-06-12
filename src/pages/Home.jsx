@@ -23,7 +23,7 @@ export default function Home() {
             first light on Kanchenjunga.
           </p>
           <div className="hero-cta">
-            <Link to="/tours" className="btn btn-primary">Explore Tours</Link>
+            <Link to="/tours" className="btn btn-primary">Destinations</Link>
             <Link to="/contact" className="btn btn-ghost">Contact Us</Link>
           </div>
         </div>

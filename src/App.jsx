@@ -14,8 +14,8 @@ export default function App() {
             <img src="/images/logo.jpeg" alt="More Than Miles" className="brand-mark" /> More Than Miles
           </Link>
           <nav className="menu">
-            <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "")}>
-              Explore Tours
+            <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "") }>
+              Destinations
             </NavLink>            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "") }>
               About Us
             </NavLink>            <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
