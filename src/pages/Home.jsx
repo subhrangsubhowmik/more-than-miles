@@ -50,10 +50,10 @@ export default function Home() {
             <Link to="/contact" className="link-more">View more →</Link>
           </div>
           <div className="contact-glimpse">
-            <a href="mailto:hello@morethanmiles.in" className="contact-chip">✉ hello@morethanmiles.in</a>
-            <a href="https://wa.me/919830000000" className="contact-chip">⌬ WhatsApp +91 98300 00000</a>
-            <a href="tel:+919830000000" className="contact-chip">☎ +91 98300 00000</a>
-            <a href="https://facebook.com/morethanmiles" className="contact-chip">f Facebook</a>
+            <a href="mailto:morethanmiles.tours@gmail.com" className="contact-chip">✉ morethanmiles.tours@gmail.com</a>
+            <a href="https://wa.me/9875678205" className="contact-chip">⌬ WhatsApp +91 98756 78205</a>
+            <a href="tel:+919830565635" className="contact-chip">☎ +91 98305 65635</a>
+            <a href="https://www.facebook.com/share/1E9Mnq58CC/" className="contact-chip">f Facebook</a>
           </div>
         </div>
       </section>
