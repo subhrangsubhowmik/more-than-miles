@@ -22,7 +22,7 @@ export default function Contact() {
             <span className="contact-icon">⌬</span>
             <div>
               <div className="contact-label">WhatsApp</div>
-              <a href="https://wa.me/919830000000">+91 98756 78205</a>
+              <a href="https://wa.me/9875678205">+91 98756 78205</a>
             </div>
           </li>
           <li>
