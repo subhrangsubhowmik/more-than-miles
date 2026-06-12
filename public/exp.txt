@@ -4,7 +4,7 @@
 
 === Durga Puja Experience ===
 subheading: Experience Bengal's Grandest Celebration
-images: durgaPuja-1.jpg,durgaPuja-2.jpg,durgaPuja-3.jpg
+images: durgaPuja-1.jpg,durgaPuja-2.jpg
 include: Iconic and award-winning pandals;Traditional Bonedi Bari Puja visits;Cultural performances;Local festive cuisine;Guided festival tours;Immersion ceremony experiences (subject to schedule)
 
 description:
