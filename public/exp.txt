@@ -24,6 +24,7 @@ images: heritageWalk-1.jpg
 include: Colonial Kolkata; Dalhousie Square/BBD Bagh; Chinatown; Kumartuli;College Street;North Kolkata heritage mansions;Riverfront heritage
 
 description:
+Explore Bengal's rich history through curated walks led by local experts. Discover colonial architecture, hidden neighbourhoods, historic landmarks and fascinating stories that shaped the region.
 
 === Baul Music & Rural Bengal ===
 subheading: 
@@ -31,6 +32,7 @@ images: baul-1.jpg
 include: Baul performances;Santiniketan excursions;Sonajhuri Haat;Village interactions;Rural Bengal culture;Folk traditions
 
 description:
+Immerse yourself in the soulful traditions of rural Bengal through Baul music, folk culture and local village life. Discover centuries-old traditions that continue to inspire artists and travellers alike.
 
 === Tribal Culture & Chhau Experience ===
 subheading: 
@@ -38,6 +40,7 @@ images: chhou-1.jpg
 include: Purulia tribal villages;Chhau dance performances;Local crafts;Traditional lifestyle;Local cuisine;Seasonal festivals
 
 description:
+Experience the vibrant traditions of rural Bengal through tribal communities, local crafts and the internationally acclaimed Chhau dance. A unique opportunity to explore the cultural diversity of Eastern India.
 
 === Handicrafts & Artisan Trails ===
 subheading: 
@@ -45,6 +48,7 @@ images: artWork-1.jpg
 include: Bishnupur terracotta artisans;Baluchari saree weaving;Dokra craft villages;Pottery and local handicrafts;Artisan interactions;Shopping opportunities
 
 description:
+Meet skilled artisans and discover traditional crafts that have been passed down through generations. Learn about weaving, pottery, terracotta art and other unique regional crafts.
 
 === River & Village Experiences ===
 subheading: 
@@ -52,6 +56,7 @@ images: river-1.jpg
 include: Hooghly river cruises;Riverside heritage towns;Sundarbans villages;Fishing communities;Rural life experiences
 
 description:
+T.B.D.
 
 === Photography & Cultural Tours ===
 subheading: 
@@ -59,3 +64,4 @@ images: culture-1.jpg
 include: Durga Puja photography;Kolkata street photography;Flower Market sunrise tours;Kumartuli artisan workshops;Darjeeling landscapes;Rural Bengal photography
 
 description:
+T.B.D.
