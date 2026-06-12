@@ -4,6 +4,8 @@ import Tours from "./pages/Tours.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import TourDetail from "./pages/TourDetail.jsx";
+import Experiences from "./pages/Experiences.jsx";
+import ExperienceDetail from "./pages/ExperienceDetail.jsx";
 
 export default function App() {
   return (
@@ -16,9 +18,14 @@ export default function App() {
           <nav className="menu">
             <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "") }>
               Destinations
-            </NavLink>            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "") }>
+            </NavLink>
+            <NavLink to="/experiences" className={({ isActive }) => (isActive ? "active" : "") }>
+              Experiences
+            </NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "") }>
               About Us
-            </NavLink>            <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "") }>
               Contact Us
             </NavLink>
           </nav>
@@ -29,6 +36,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tours" element={<Tours />} />
+          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/experiences/:id" element={<ExperienceDetail />} />
           <Route path="/tours/:id" element={<TourDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

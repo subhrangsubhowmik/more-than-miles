@@ -1,0 +1,19 @@
+# Experiences data - similar format to tours.txt
+# Blocks start with === Title ===
+# Keys: subheading, images, include, description
+
+=== Bengali Culinary Experiences ===
+subheading: Traditional & home-style Bengali food
+images: bengaliCuisine-1.jpg
+include: Traditional Bengali lunch/dinner experiences; Street food walks; Sweet shops and local delicacies; Fish and seafood specialties; Local market visits; Home-style Bengali cuisine (if available)
+
+description:
+A curated set of culinary experiences focused on authentic Bengali flavours, hands-on meals and guided market tours.
+
+=== Handloom & Craft Workshops ===
+subheading: Local weaving and craft demonstrations
+images: handloom-1.svg
+include: Weaving demos; Handloom studio visits; Local craft markets; Short workshops
+
+description:
+Meet artisans and learn traditional weaving techniques with short hands-on workshops.

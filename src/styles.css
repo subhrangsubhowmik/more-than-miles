@@ -130,6 +130,10 @@ img { display: block; max-width: 100%; }
 .tour-highlights ul { margin: 0; padding-left: 1.15rem; color: #415041; }
 .tour-highlights li { margin: 0.45rem 0; }
 
+/* Experience include list styling (reuses tour styles) */
+.tour-detail-body ul { list-style: disc; margin-left: 1.2rem; color: #415041; }
+.tour-detail-body ul li { margin: 0.45rem 0; }
+
 .tour-detail-meta { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 1.5rem; }
 .tour-detail-meta-item {
   display: flex;

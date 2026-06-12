@@ -67,7 +67,8 @@ export default function TourDetail() {
                     </svg>
                   </span>
                   <div>
-                    <small className="recommended">(Recommended package length)</small>
+                    <strong>{tour.duration || "Flexible duration"}</strong>
+                    <span className="recommended"> (Recommended package length)</span>
                   </div>
                 </div>
               </div>
