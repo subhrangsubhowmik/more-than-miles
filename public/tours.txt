@@ -32,22 +32,23 @@ Highlights:
 • Local food experiences 
 • Hooghly River cruise (optional)
 
-=== Santiniketan Cultural Retreat ===
-subheading: The Land of Tagore and Timeless Culture
-images: santiniketan-1.jpg, santiniketan-2.jpg, santiniketan-3.jpg
-duration: 2/3 days
+=== Darjeeling & Kalimpong Himalayan Escape ===
+subheading: Where the Himalayas Touch the Sky
+images: darjeeling-1.jpg, darjeeling-2.jpg, darjeeling-3.jpg
+duration: 4/5 days
 booking: Hotel & transport support included
 
 description:
-Step into the world of Rabindranath Tagore at Santiniketan, a unique cultural destination known for its artistic heritage, rural charm and creative spirit. Explore historic landmarks, local crafts, Baul traditions and the tranquil surroundings that inspired generations of artists and thinkers.
+Experience the beauty of the Eastern Himalayas through the charming hill stations of Darjeeling and Kalimpong. Enjoy breathtaking mountain views, monasteries, colonial heritage, vibrant local culture and serene landscapes that create the perfect mountain getaway.
 
-Highlights:
-• Visva-Bharati campus 
-• Rabindra Bhavan 
-• Kala Bhavan 
-• Sonajhuri Haat 
-• Baul music experiences 
-• Local art and handicrafts
+Highlights: 
+• Tiger Hill sunrise 
+• Darjeeling Himalayan Railway 
+• Ghoom Monastery 
+• Himalayan Mountaineering Institute 
+• Peace Pagoda 
+• Kalimpong monasteries 
+• Scenic viewpoints and local markets
 
 === Sundarbans Wilderness Expedition ===
 subheading: Into the Heart of the Mangroves
@@ -66,23 +67,22 @@ Highlights:
 • Birdwatching opportunities
 • Local cuisine and cultural interactions
 
-=== Darjeeling & Kalimpong Himalayan Escape ===
-subheading: Where the Himalayas Touch the Sky
-images: darjeeling-1.jpg, darjeeling-2.jpg, darjeeling-3.jpg
-duration: 4/5 days
+=== Santiniketan Cultural Retreat ===
+subheading: The Land of Tagore and Timeless Culture
+images: santiniketan-1.jpg, santiniketan-2.jpg, santiniketan-3.jpg
+duration: 2/3 days
 booking: Hotel & transport support included
 
 description:
-Experience the beauty of the Eastern Himalayas through the charming hill stations of Darjeeling and Kalimpong. Enjoy breathtaking mountain views, monasteries, colonial heritage, vibrant local culture and serene landscapes that create the perfect mountain getaway.
+Step into the world of Rabindranath Tagore at Santiniketan, a unique cultural destination known for its artistic heritage, rural charm and creative spirit. Explore historic landmarks, local crafts, Baul traditions and the tranquil surroundings that inspired generations of artists and thinkers.
 
-Highlights: 
-• Tiger Hill sunrise 
-• Darjeeling Himalayan Railway 
-• Ghoom Monastery 
-• Himalayan Mountaineering Institute 
-• Peace Pagoda 
-• Kalimpong monasteries 
-• Scenic viewpoints and local markets
+Highlights:
+• Visva-Bharati campus 
+• Rabindra Bhavan 
+• Kala Bhavan 
+• Sonajhuri Haat 
+• Baul music experiences 
+• Local art and handicrafts
 
 === Murshidabad Heritage Trail ===
 subheading: A Journey Through Bengal's Royal Past

@@ -42,6 +42,38 @@ img { display: block; max-width: 100%; }
 .menu a.primary { font-weight: 600; }
 .menu a.primary:hover, .menu a.primary.active { color: #2f6f5e; border-bottom-width: 3px; }
 
+/* Attractions dropdown */
+.menu .dropdown { position: relative; display: inline-flex; align-items: center; }
+.menu .menu-button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+  font-weight: 600;
+}
+.menu .menu-button:hover { color: #2f6f5e; border-color: #2f6f5e; }
+.menu .menu-button.primary:hover, .menu .menu-button.primary.active { color: #2f6f5e; border-bottom-width: 3px; }
+.menu .chev { margin-left: 0.45rem; font-size: 0.8rem; opacity: 0.9; }
+.menu .submenu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: #fff;
+  border: 1px solid #ece7dd;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(20,30,25,0.08);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 180px;
+  z-index: 30;
+}
+.menu .submenu a { padding: 0.55rem 0.9rem; border-radius: 8px; color: #1f2a24; display: block; }
+.menu .submenu a:hover { background: #f1ece2; color: #2f6f5e; }
+
 /* ---------- Hero ---------- */
 .hero {
   background:
@@ -78,6 +110,9 @@ img { display: block; max-width: 100%; }
 .link-more { color: #2f6f5e; font-weight: 600; }
 .link-more:hover { text-decoration: underline; }
 
+.section-footer { display: flex; justify-content: flex-end; margin-top: 1rem; }
+.section-footer .link-more { font-weight: 600; }
+
 .page-head { margin-bottom: 2.5rem; }
 .page-head h1 { font-size: 2.2rem; margin: 0 0 0.5rem; }
 
@@ -85,6 +120,60 @@ img { display: block; max-width: 100%; }
 .grid {
   display: grid; gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* Featured tours: allow up to 4 compact cards across larger screens */
+.grid.featured-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* Ensure featured cards have equal heights and consistent image area */
+.grid.featured-grid {
+  grid-auto-rows: 1fr;
+  align-items: stretch;
+}
+
+.grid.featured-grid .tour-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid.featured-grid .tour-gallery {
+  flex: 0 0 auto;
+  min-height: 160px;
+  max-height: 220px;
+  overflow: hidden;
+}
+
+.grid.featured-grid .tour-gallery > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid.featured-grid .tour-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 1rem 1.25rem;
+  overflow: hidden;
+}
+
+/* Keep the footer pinned to the bottom so cards align */
+.grid.featured-grid .tour-footer { margin-top: auto; }
+
+/* Truncate long descriptions in the featured grid to keep uniform card heights */
+.grid.featured-grid .tour-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 520px) {
+  .grid.featured-grid .tour-gallery { min-height: 140px; max-height: 180px; }
+  .grid.featured-grid .tour-body p { -webkit-line-clamp: 4; }
 }
 .tour-list { display: grid; gap: 2.5rem; }
 

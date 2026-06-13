@@ -10,7 +10,7 @@ export default function Home() {
     loadTours().then(setTours).catch(console.error);
   }, []);
 
-  const preview = tours.slice(0, 3);
+  const preview = tours.slice(0, 4);
 
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
           <div className="hero-cta">
             <Link to="/tours" className="btn btn-primary">Destinations</Link>
-            <Link to="/contact" className="btn btn-ghost">Contact Us</Link>
+            <Link to="/experiences" className="btn btn-ghost">Experiences</Link>
           </div>
         </div>
       </section>
@@ -32,12 +32,14 @@ export default function Home() {
         <div className="container">
           <div className="section-head">
             <h2>Featured tours</h2>
-            <Link to="/tours" className="link-more">View all →</Link>
           </div>
-          <div className="grid">
+          <div className="grid featured-grid">
             {preview.map((t) => (
               <TourCard key={t.id} tour={t} compact />
             ))}
+          </div>
+          <div className="section-footer">
+            <Link to="/tours" className="link-more">View all →</Link>
           </div>
         </div>
       </section>
@@ -46,7 +48,6 @@ export default function Home() {
         <div className="container">
           <div className="section-head">
             <h2>Plan your trip with us</h2>
-            <Link to="/contact" className="link-more">View more →</Link>
           </div>
           <div className="contact-glimpse">
             <a href="mailto:morethanmiles.tours@gmail.com" className="contact-chip">✉ morethanmiles.tours@gmail.com</a>

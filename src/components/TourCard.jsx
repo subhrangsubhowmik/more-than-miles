@@ -27,7 +27,7 @@ export default function TourCard({ tour, compact = false }) {
       <div className="tour-body">
         <h3>{tour.title}</h3>
         {tour.subtitle && !compact && <p className="tour-subtitle">{tour.subtitle}</p>}
-        <p>{compact ? truncate(tour.description, 140) : tour.description}</p>
+        <p>{compact ? truncateWords(tour.description, 8) : tour.description}</p>
         <div className="tour-footer">
           <span className="tour-availability">
             <svg className="calendar-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -49,4 +49,10 @@ export default function TourCard({ tour, compact = false }) {
 
 function truncate(s, n) {
   return s.length > n ? s.slice(0, n).trimEnd() + "…" : s;
+}
+
+function truncateWords(s, n) {
+  if (!s) return "";
+  const words = s.trim().split(/\s+/);
+  return words.length > n ? words.slice(0, n).join(" ") + "…" : words.join(" ");
 }
