@@ -16,10 +16,10 @@ export default function App() {
             <img src="/images/logo.jpeg" alt="More Than Miles" className="brand-mark" /> More Than Miles
           </Link>
           <nav className="menu">
-            <NavLink to="/tours" className={({ isActive }) => (isActive ? "active" : "") }>
+            <NavLink to="/tours" className={({ isActive }) => (isActive ? "active primary" : "primary") }>
               Destinations
             </NavLink>
-            <NavLink to="/experiences" className={({ isActive }) => (isActive ? "active" : "") }>
+            <NavLink to="/experiences" className={({ isActive }) => (isActive ? "active primary" : "primary") }>
               Experiences
             </NavLink>
             <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "") }>
@@ -47,7 +47,7 @@ export default function App() {
 
       <footer className="site-footer">
         <div className="container">
-          <p>© {new Date().getFullYear()} More Than Miles. Crafted for travellers of Bengal.</p>
+          <p>© {new Date().getFullYear()} More Than Miles. Crafted for travellers around the World!</p>
         </div>
       </footer>
     </div>

@@ -56,7 +56,7 @@ images: river-1.jpg
 include: Hooghly river cruises;Riverside heritage towns;Sundarbans villages;Fishing communities;Rural life experiences
 
 description:
-T.B.D.
+Slow down and discover the timeless charm of rural Bengal through scenic river journeys and authentic village experiences. Explore riverside communities, traditional livelihoods, local culture and everyday life while enjoying the tranquil beauty of Bengal's waterways and countryside.
 
 === Photography & Cultural Tours ===
 subheading: 
@@ -64,4 +64,4 @@ images: culture-1.jpg
 include: Durga Puja photography;Kolkata street photography;Flower Market sunrise tours;Kumartuli artisan workshops;Darjeeling landscapes;Rural Bengal photography
 
 description:
-T.B.D.
+Capture the colours, culture and character of Bengal through specially curated photography and cultural experiences. From bustling markets and heritage streets to vibrant festivals and scenic landscapes, discover unique stories and unforgettable moments through your lens.

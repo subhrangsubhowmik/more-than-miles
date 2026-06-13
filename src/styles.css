@@ -38,6 +38,9 @@ img { display: block; max-width: 100%; }
 .menu { display: flex; gap: 1.5rem; }
 .menu a { font-weight: 500; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
 .menu a.active, .menu a:hover { border-color: #2f6f5e; color: #2f6f5e; }
+/* Subtle emphasis for primary navigation items */
+.menu a.primary { font-weight: 600; }
+.menu a.primary:hover, .menu a.primary.active { color: #2f6f5e; border-bottom-width: 3px; }
 
 /* ---------- Hero ---------- */
 .hero {
@@ -112,7 +115,7 @@ img { display: block; max-width: 100%; }
 .tour-body { padding: 1.5rem 1.75rem; }
 .tour-body h3 { margin: 0 0 0.5rem; font-size: 1.4rem; }
 .tour-body p { margin: 0; white-space: pre-line; color: #44504a; }
-.tour-subtitle { margin: 0 0 0.65rem; color: #47534a; font-size: 0.98rem; font-style: italic; }
+.tour-subtitle { margin: 0 0 1.6rem; color: #47534a; font-size: 1.08rem; font-style: italic; }
 .tour-footer { margin-top: 1rem; display: flex; align-items: center; justify-content: space-between; }
 .tour-availability { font-size: 0.85rem; color: #7a8480; font-weight: 500; letter-spacing: 0.03em; text-transform: uppercase; display: flex; align-items: center; gap: 0.5rem; }
 .calendar-icon { color: #2f6f5e; flex-shrink: 0; }
@@ -197,14 +200,17 @@ img { display: block; max-width: 100%; }
   background: #eaf2ee; color: #2f6f5e;
   display: grid; place-items: center; font-weight: 700;
 }
+.contact-icon svg { display: block; }
+.contact-icon.whatsapp { background: #25D366; color: #fff; }
+.contact-chip .contact-icon.whatsapp { width: 28px; height: 28px; border-radius: 8px; margin-right: 0.6rem; display: inline-grid; place-items: center; }
 .contact-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: #7a8480; }
 .contact-list a { color: #1f2a24; font-weight: 600; }
 .contact-list a:hover { color: #2f6f5e; }
 
 .about-hero {
   background:
-    linear-gradient(180deg, rgba(20,30,25,0.74), rgba(20,30,25,0.64)),
-    url("/images/MTMLogo.jpeg") center/cover no-repeat;
+    linear-gradient(180deg, rgba(20,30,25,0.68), rgba(20,30,25,0.5)),
+    url("/images/kolkataCity-1.jpg") center/cover no-repeat;
   color: #fff;
   padding: 6rem 0 5rem;
 }
@@ -260,7 +266,7 @@ img { display: block; max-width: 100%; }
 }
 
 .about-hero {
-  background-position: center 55%;
+  background-position: center 45%;
 }
 
 /* ---------- Footer ---------- */
