@@ -226,12 +226,22 @@ img { display: block; max-width: 100%; }
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: none;
-  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.85);
   cursor: pointer;
   padding: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
 }
-.carousel-dots .dot.active { background: #2f6f5e; transform: scale(1.05); }
+.carousel-dots .dot.active {
+  background: #2f6f5e;
+  border-color: rgba(0,0,0,0.06);
+  transform: scale(1.12);
+}
+.carousel-dots .dot:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(47,111,94,0.12);
+}
 
 @media (max-width: 880px) {
   /* hide thumbnail strip on narrower screens */
