@@ -10,6 +10,18 @@ export default function TourCard({ tour, compact = false }) {
       <div className="tour-gallery">
         <img src={images[active]} alt={tour.title} onError={(e) => (e.currentTarget.style.opacity = 0.3)} />
         {images.length > 1 && (
+          <div className="carousel-dots" aria-hidden={images.length <= 1}>
+            {images.map((_, i) => (
+              <button
+                key={i}
+                className={i === active ? "dot active" : "dot"}
+                onClick={() => setActive(i)}
+                aria-label={`Show image ${i + 1}`}
+              />
+            ))}
+          </div>
+        )}
+        {images.length > 1 && (
           <div className="thumbs">
             {images.map((src, i) => (
               <button
