@@ -172,7 +172,21 @@ img { display: block; max-width: 100%; }
 }
 
 @media (max-width: 520px) {
-  .grid.featured-grid .tour-gallery { min-height: 140px; max-height: 180px; }
+  /* Make the gallery taller on small screens so the image lower part is visible */
+  .grid.featured-grid .tour-gallery { min-height: 220px; max-height: 260px; }
+
+  /* Move thumbnails out of the absolute overlay and place them below the image on mobile */
+  .grid.featured-grid .tour-gallery .thumbs {
+    position: static;
+    background: none;
+    padding: 0.4rem 0 0;
+    margin-top: 0.5rem;
+    left: auto; right: auto; bottom: auto;
+  }
+
+  /* Slightly smaller thumbs on narrow screens */
+  .grid.featured-grid .thumb { width: 36px; height: 36px; }
+
   .grid.featured-grid .tour-body p { -webkit-line-clamp: 4; }
 }
 .tour-list { display: grid; gap: 2.5rem; }
